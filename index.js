@@ -8,7 +8,6 @@ app.use(cors());
 app.use(express.json());
 
 // root api
-
 app.get("/", (req, res) => {
   res.send("Career code is running like a horse");
 });
